@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.MainActivity">
+    tools:context=".Activities.IntroActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -49,12 +49,13 @@
                 />
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/introBtn"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
-                android:layout_marginTop="64dp"
-                android:background="@drawable/introbackground">
+                android:background="@drawable/intro_background">
 
                 <TextView
                     android:id="@+id/textView3"
